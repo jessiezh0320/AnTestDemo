@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+android:background="@android:color/white"
+android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+<Refractored.Controls.CircleImageView
+android:id="@+id/accoutImage"
+android:layout_height="100dp"
+android:layout_width="100dp"
+android:layout_gravity="center"
+android:src="@drawable/huahua"
+android:scaleType="centerCrop"
+/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/accountTitle"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:text="UserName"
+    android:layout_marginBottom="12dp"
+/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+android:layout_gravity="bottom"
+android:background="@android:color/holo_blue_dark"/>
+
+</FrameLayout>
